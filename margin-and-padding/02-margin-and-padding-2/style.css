@@ -1,5 +1,5 @@
 body {
-  background: #eee;
+  background: gray;
   font-family: sans-serif;
 }
 
@@ -7,21 +7,35 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 10px;
 }
 
 .title {
-  background: #e3f4ff;
+  background: #7dbfeb;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  padding: 10px;
 }
 
 .content {
-  background: #e3f4ff;
+  background: #7dbfeb;
+  padding: 10px;
 }
 
 .button-container {
-  background: #e3f4ff;
+  background: #7dbfeb;
+  display: block;
+  margin-top: 10px;
+  padding-left: 150px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin-left: -30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
